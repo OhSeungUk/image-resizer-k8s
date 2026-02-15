@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-10 gap-8">
-      <h1 className="text-4xl font-bold text-gray-800">🖼️ 심플 이미지 변환기 Final</h1>
+      <h1 className="text-4xl font-bold text-gray-800">✨ Magic Auto Resizer ✨</h1>
       
       {/* 업로드 컴포넌트 */}
       <ImageUploader onUploadSuccess={handleSuccess} />

@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: backend-container
-        image: my-k8s-project-backend:latest  # 도커 이미지 이름 확인!
-        imagePullPolicy: Never
+        # 👇 여기에 본인 Docker Hub 아이디를 꼭 넣으세요! (예: OhSeungUk)
+        image: osw1014/my-k8s-project-backend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000

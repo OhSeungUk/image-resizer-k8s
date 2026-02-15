@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: my-k8s-project-frontend:latest # 도커 이미지 이름 확인!
-        imagePullPolicy: Never
+        image: osw1014/my-k8s-project-frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
