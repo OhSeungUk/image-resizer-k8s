@@ -1,0 +1,10 @@
+# 테라폼 로컬 설정 및 플러그인
+.terraform/
+.terraform.lock.hcl
+
+# 상태 파일 (절대 올리면 안 됨!)
+*.tfstate
+*.tfstate.backup
+
+# 변수 설정 파일 (비밀번호 등이 담길 수 있음)
+*.tfvars
